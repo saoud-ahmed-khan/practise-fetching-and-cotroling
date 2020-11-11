@@ -11,6 +11,7 @@ function App() {
     
     useEffect(() => {
       document.title = `You clicked ${data} times`;
+      console.log(data);
     },[data]);
   return (
     <div className="App">

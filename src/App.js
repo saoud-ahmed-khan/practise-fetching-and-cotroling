@@ -8,7 +8,7 @@ useEffect(()=>{
   axios.get("https://jsonplaceholder.typicode.com/posts")
         .then((res) => { setData(res) })
         .catch((e) => console.log(e))
-      console.log(data.title)
+         console.log(data)
 
 },[])
 
